@@ -11,12 +11,11 @@ header .nav p{
 header .mobile-nav-container{
   display: flex;
 }
-
-
 }
 
 body{
   margin: 0px;
+  font-family: Helvetica;
 }
 
 header{
@@ -48,4 +47,52 @@ margin-right: 16px;
 
 header .mobile-nav-container{
   display: none;
+}
+
+
+.section1{
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: 64px;
+  background: rgb(215, 215, 215);
+}
+
+.section1 img{
+margin: 32px 24px;
+width: 60%;
+height: 60%;
+}
+
+.box{
+  color: rgb(75, 75, 75);
+  margin-top: 50px;
+}
+
+.box h1{
+font-size: 3em;
+margin-bottom: 16px;
+}
+
+.box h5{
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+
+.button{
+  background-color: rgb(75, 75, 75);
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
